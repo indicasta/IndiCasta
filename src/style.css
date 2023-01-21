@@ -61,6 +61,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: "SF Mono", sans-serif;
 }
 
 .navigation-links {
@@ -113,4 +114,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.mybrand {
+  font-family: "Satisfy", cursive;
 }
