@@ -2,6 +2,19 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --twitter-color: #1d9bf0;
+  --instagram-background-color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  --github-color: #24292f;
+  --linkedin-color: #0a66c2;
+  --codepen-color: #1e1f26;
+  --whatsapp-color: #25d366;
 }
 @media (max-width: 768px) {
   h1 {
@@ -125,4 +138,40 @@ p {
 }
 i {
   font-size: 50px;
+}
+.fa-instagram {
+  color: transparent;
+  background: var(--instagram-background-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-twitter {
+  color: transparent;
+  background: var(--twitter-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-github {
+  color: transparent;
+  background: var(--github-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-linkedin {
+  color: transparent;
+  background: var(--linkedin-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-codepen {
+  color: transparent;
+  background: var(--codepen-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-whatsapp {
+  color: transparent;
+  background: var(--whatsapp-color);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
