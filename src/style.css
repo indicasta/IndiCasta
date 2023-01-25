@@ -178,3 +178,8 @@ i {
   background-clip: text;
   -webkit-background-clip: text;
 }
+.nav-link {
+  font-family: "SF Mono", sans-serif;
+  font-weight: 600;
+  color: var(--primary-color);
+}
