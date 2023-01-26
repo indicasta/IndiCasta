@@ -183,3 +183,6 @@ i {
   font-weight: 600;
   color: var(--primary-color);
 }
+.work-bg {
+  background: var(--secondary-color);
+}
