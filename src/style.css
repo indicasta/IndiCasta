@@ -26,6 +26,9 @@
   h3 {
     font-size: 14px !important;
   }
+  h5 {
+    font-size: 8px !important;
+  }
   i {
     font-size: 30px !important;
   }
@@ -62,7 +65,9 @@ h1 {
   line-height: 1.5;
 }
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-family: "SF Mono", sans-serif;
 }
 h2 {
@@ -72,9 +77,10 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
 }
-
+h5 {
+  font-size: 14px;
+}
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -185,4 +191,5 @@ i {
 }
 .work-bg {
   background: var(--secondary-color);
+  max-width: 560px;
 }
