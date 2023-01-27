@@ -15,6 +15,12 @@
   --linkedin-color: #0a66c2;
   --codepen-color: #1e1f26;
   --whatsapp-color: #25d366;
+  --custom-gradient: linear-gradient(
+    109.6deg,
+    rgb(9, 9, 121) 11.2%,
+    rgb(144, 6, 161) 53.7%,
+    rgb(0, 212, 255) 100.2%
+  );
 }
 @media (max-width: 768px) {
   h1 {
@@ -36,7 +42,8 @@
     font-size: 30px !important;
   }
   .email-link,
-  .email-link-footer {
+  .email-link-footer,
+  .footer-github-link {
     font-size: 14px !important;
   }
   p {
@@ -240,4 +247,10 @@ i {
 .social-media-home:hover {
   background-color: var(--primary-color);
   transition: all 100ms ease-in-out;
+}
+.footer-github-link a {
+  color: transparent;
+  background: var(--custom-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
