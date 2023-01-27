@@ -254,3 +254,6 @@ i {
   background-clip: text;
   -webkit-background-clip: text;
 }
+.diploma-link {
+  max-width: 40px;
+}
