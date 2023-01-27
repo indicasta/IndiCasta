@@ -72,7 +72,6 @@ h5 {
 }
 h2 {
   font-size: 48px;
-  margin-top: 100px !important;
 }
 
 h3 {
@@ -192,7 +191,6 @@ i {
 .active {
   color: var(--primary-color) !important;
 }
-.work-bg {
+.custom-bg {
   background: var(--secondary-color);
-  max-width: 560px;
 }
