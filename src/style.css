@@ -187,7 +187,10 @@ i {
 .nav-link {
   font-family: "SF Mono", sans-serif;
   font-weight: 600;
-  color: var(--primary-color);
+  color: #423e8d;
+}
+.active {
+  color: var(--primary-color) !important;
 }
 .work-bg {
   background: var(--secondary-color);
