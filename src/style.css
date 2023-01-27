@@ -32,7 +32,8 @@
   i {
     font-size: 30px !important;
   }
-  .email-link {
+  .email-link,
+  .email-link-footer {
     font-size: 14px !important;
   }
   p {
@@ -42,7 +43,14 @@
     margin: 10px !important;
     padding: 5px !important;
   }
-  .contact-link,
+  .social-links i {
+    font-size: 14px !important;
+  }
+  .social-media-home {
+    padding: 3px 16px !important;
+    margin: 0 10px !important;
+  }
+  .custom-link,
   .about-link {
     font-size: 10px !important;
   }
@@ -67,7 +75,8 @@ h1 {
 h2,
 h3,
 h4,
-h5 {
+h5,
+footer {
   font-family: "SF Mono", sans-serif;
 }
 h2 {
@@ -104,7 +113,7 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.custom-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -193,4 +202,31 @@ i {
 }
 .custom-bg {
   background: var(--secondary-color);
+}
+.email-link-footer {
+  text-decoration: none;
+  color: var(--codepen-color);
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 50px 0;
+}
+.email-link-footer:hover {
+  color: var(--primary-color);
+}
+.social-links i {
+  font-size: 18px;
+}
+.social-links i:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+.social-media-home {
+  padding: 10px 22px;
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+.social-media-home:hover {
+  background-color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
